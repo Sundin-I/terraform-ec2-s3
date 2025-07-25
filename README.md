@@ -18,11 +18,11 @@ This project provisions a basic cloud infrastructure on AWS using Terraform. It 
 ## 📁 File Structure
 
 terraform-ec2-s3/
-├── main.tf # EC2 and S3 resource definitions
-├── provider.tf # AWS provider config
-├── variables.tf # Input variables
-├── output.tf # Output values (e.g., public IP)
-├── data.tf # Data sources for default VPC and AMI
+- main.tf # EC2 and S3 resource definitions
+- provider.tf # AWS provider config
+- variables.tf # Input variables
+- output.tf # Output values (e.g., public IP)
+- data.tf # Data sources for default VPC and AMI
 
 
 ---
