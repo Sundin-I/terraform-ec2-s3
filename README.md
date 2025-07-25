@@ -25,17 +25,3 @@ terraform-ec2-s3/
 - data.tf # Data sources for default VPC and AMI
 
 
----
-
-## 🚀 Getting Started
-
-### 1. ✅ Prerequisites
-
-- AWS credentials with IAM permissions to manage EC2 and S3
-- Terraform installed
-- An existing key pair in the AWS region you're deploying to
-
-### 2. 📦 Initialize Terraform
-
-```bash
-terraform init
