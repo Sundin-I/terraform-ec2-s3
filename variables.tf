@@ -1,11 +1,7 @@
-variable "key_name" {
-  description = "The name of your existing EC2 key pair"
-  type        = string
-  default     = "ec2-cicd-key-713"
+output "ec2_public_ip" {
+  value = aws_instance.web.public_ip
 }
 
-variable "bucket_prefix" {
-  description = "Prefix for the S3 bucket"
-  type        = string
-  default     = "sundin-portfolio-bucket"
+output "s3_bucket_name" {
+  value = aws_s3_bucket.portfolio_bucket.id
 }
