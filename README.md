@@ -25,3 +25,8 @@ terraform-ec2-s3/
 - data.tf # Data sources for default VPC and AMI
 
 
+### 📤 Outputs
+
+After `terraform apply`, you’ll see:
+ec2_public_ip = "18.118.78.206"
+s3_bucket_name = "sundin-portfolio-bucket"
