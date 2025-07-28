@@ -25,8 +25,27 @@ terraform-ec2-s3/
 - data.tf # Data sources for default VPC and AMI
 
 
-### 📤 Outputs
+## ✅ Outputs
 
 After `terraform apply`, you’ll see:
-ec2_public_ip = "18.118.78.206"
-s3_bucket_name = "sundin-portfolio-bucket"
+
+- `ec2_public_ip` = "18.118.78.206"  
+- `s3_bucket_name` = "sundin-portfolio-bucket"
+
+## 📜 License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](./LICENSE) file for more information.
+
+## 🤝 Contributing
+
+Contributions are welcome! To contribute:
+
+- Fork this repo
+- Create a new branch (`git checkout -b feature-branch`)
+- Commit your changes
+- Push to your fork
+- Open a Pull Request
+
+For major changes, open an issue first to discuss what you’d like to change.
+
