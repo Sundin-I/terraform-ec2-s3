@@ -39,13 +39,12 @@ See the [LICENSE](./LICENSE) file for more information.
 
 ## 🤝 Contributing
 
-Contributions are welcome! To contribute:
+### All projects are Licensed under MIT – contributions welcome on GitHub
+To contribute:
 
 - Fork this repo
 - Create a new branch (`git checkout -b feature-branch`)
 - Commit your changes
 - Push to your fork
 - Open a Pull Request
-
-For major changes, open an issue first to discuss what you’d like to change.
 
